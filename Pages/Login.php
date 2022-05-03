@@ -8,18 +8,18 @@
 </head>
 <body>
     <h1>Entrar</h1>
-    <from action=""method="POST">
+    <form action="" method="POST">
        <p>
             <label>E-mail</label>
             <input type="text" name="email">
         </p>
         <p>
             <label>Senha</label>
-            <input type="text" password="senha">
+            <input type="password" name="senha">
         </p>
         <p> 
             <button type="submit">Entrar</button>
-        <p>
-    </from>   
+        </p>
+     </form>   
 </body>
 </html>
