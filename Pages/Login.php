@@ -18,7 +18,7 @@
             <input type="password" name="senha">
         </p>
         <p> 
-            <button type="submit">Entrar</button>
+            <button type="submit">Login</button>
         </p>
      </form>   
 </body>
