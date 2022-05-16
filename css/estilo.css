@@ -1,44 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
-
 body{
-    background-color: aquamarine;
-    background-image: url(../img/);
+    /*background-color: aquamarine;*/
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-rosa-aquarela-floral-lindo-com-flores-de-cerejeira_41066-1846.jpg); 
+    background-size: cover;
 }
-
+h1{
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    margin: 20px;
+    font-size: 50px;
+    color: rgb(175, 20, 90);
+}
 .container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 
 .menu{
     list-style: none;
     display: flex;
-    padding: 10px;
     margin-top: 20px;
-    margin: 10px;
+    margin: 100px;
 }
 
 .menu li{
     margin: 10px;
-    background-color: rgb(46, 63, 58);
-    width: 100px;
+    background-color: rgb(157, 149, 156);
+    width: 150px;
     height: 80px;
-   align-items:center;
-    border-radius: 10px;
+    justify-content: flex-start;
+    border-radius: 20px;
+    font-size: 20pt;
+    text-align: center;
+    
 }
 
 .menu li a{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     text-align: center;
 
 }
 
 .menu li a:hover{
-    color: rgb(148, 118, 107);
-    font-size: 20px;
+    color: rgb(9, 9, 9);
+    font-size: 30px;
 }
