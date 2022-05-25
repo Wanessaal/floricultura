@@ -6,7 +6,7 @@
 }
 body{
     /*background-color: aquamarine;*/
-    background-image: url(https://img.freepik.com/vetores-gratis/fundo-rosa-aquarela-floral-lindo-com-flores-de-cerejeira_41066-1846.jpg); 
+    background-image: url(); 
     background-size: cover;
 }
 h1{
@@ -53,3 +53,4 @@ h1{
     color: rgb(9, 9, 9);
     font-size: 30px;
 }
+ 
