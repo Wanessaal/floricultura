@@ -20,9 +20,45 @@
         <br></br>
     <input type="submit" value="Confirmar sua escolha">
     
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4d5c122445152e82126621198f43bd76e1d34376
          
 </head>
 <body>
     
 </body>
 </html>
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 4d5c122445152e82126621198f43bd76e1d34376
