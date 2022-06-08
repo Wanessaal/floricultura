@@ -1,25 +1,34 @@
-
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Floricultura</title>
-    <link rel="stylesheet" type="text/css"  href="./css/estilo.css" />
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Floricultura</title>
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="./css/estilos.css" />
 </head>
 <body>
-	<div class="container">
+	<div class="container btn btn-secondary" id="menu">
 		<nav>
-			<ul class="menu">
-				<li><a href="./pages/login.php">Login</a></li>
-				<li><a href="./pages/cadusario.php">Cadastro de usuario </a></li>
-				<li><a href="./pages/cadcliente.php">Cadastro de clientes</a></li>
-				<li><a href="./pages/cadProduto.php">Cadastro de plantas</a></li>
-				<li><a href="./pages/paineldeescolha.php">Painel de escolha</a></li>  
-				<li><a href="./pages/forma de pagamento.php">forma de pagamento</a></li>		
-			</ul>
-		</nav>    
+			<div class="btn-group-vertical" role="group">
+				<a class="btn btn-secondary" href="./pages/login.php">Login</a>
+				<a class="btn btn-secondary" href="./pages/cadusuario.php">Cadastro de Usuário </a>
+				<a class="btn btn-secondary" href="./pages/cadcliente.php">Cadastro de Clientes</a>
+				<a class="btn btn-secondary" href="./pages/cadproduto.php">Cadastro de Produto</a>
+			
+				<!-- <a class="btn btn-secondary" href="./pages/forma de pagamento.php">forma de pagamento</a> -->
+			</div>
+		</nav>
 	</div>
+	<div class="container" id="area">
+
+	</div>
+
 </body>
+
 </html>

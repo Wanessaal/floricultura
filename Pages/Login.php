@@ -14,10 +14,9 @@
 <body>
 
     <div class="container">
-        <form action="" method="POST">
-        <h1>Entrar</h1>
+        <form action="" method="post">
+            <h1>Entrar</h1>
             <div class="form-group">
-               
                 <p>
                     <label class="label-control" for="email">E-mail</label>
                     <input class="form-control" type="text" name="email">
@@ -31,21 +30,5 @@
                 </p>
         </form>
     </div>
-    </div>
-    <p>
-                    <label class="label-control" for="senha">Senha</label>
-                    <input class="form-control" type="password" name="senha">
-                </p>
-                <p>
-                    <button class="form-control btn btn-secondary" type="submit">Login</button>
-                </p>
-        </form>
-    </div>
-    </div>
-
-
 </body>
-
-</body>
-
 </html>
