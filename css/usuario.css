@@ -1,12 +1,8 @@
 *{
-    margin: 30;
-    padding: 30;
-
-    
+    margin: 0;
+    padding: 0;
 }
 /* login */
-
-
 html,body{
     background-image: rgb(160, 60, 128);
     display: flex;
@@ -14,21 +10,16 @@ html,body{
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    
 }
-
-
-
-  /* usuario */
+/* usuario */
 .container{
-    
     display: flex;
     align-items: center;
     justify-content: center;
-
+    width: 100%;
+    height: 80%;
     background-color: rgb(190, 42, 146);
 }
-
 .container form{ 
     margin: 300px;
     border: 1px solid rgb(201, 45, 71);
@@ -36,20 +27,21 @@ html,body{
     border-radius: 10px;
     padding: 5%;
     width: 50%;
+    height: 100%;
     /* height: 100%; */
 
     
 }
-
-
-
 .container form input[type]{
 
 }
 .container form input{
     border-radius: 5px;
 }
-
 #emailusuario{
 
+}
+
+h2{
+    margin-top: -50px;
 }
