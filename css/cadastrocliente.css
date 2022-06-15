@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
-*{
+/* *{
     margin: 0;
     padding: 0;
 }
@@ -16,18 +16,12 @@ body{
 }
    
 h1{
-    /* font-family: 'Playfair Display', serif; */
     font-family: 'Playfair Display', serif;
     display: flex;
     margin: 1px;
     font-size:50px;
     display: block;
     
-    /* align-items: center; */
-    /* justify-content: left; */
-    /* flex-direction: column; */
-    /* height: 100%;
-    width: 60%; */
    
     border-radius: 10;
 
@@ -50,4 +44,51 @@ height: 600px;
     background-color: rgb(119, 135, 143);
     border-radius: 20px;
     
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* login */
+html,body{
+    background-image: rgb(160, 60, 128);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+/* usuario */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    background-color: rgb(190, 42, 146);
+}
+.container form{ 
+    margin: 300px;
+    border: 1px solid rgb(201, 45, 71);
+    background-color: rgb(191, 174, 186);
+    border-radius: 10px;
+    padding: 5%;
+    width: 50%;
+
+    
+}
+.container form input[type]{
+
+}
+.container form input{
+    border-radius: 5px;
+}
+#emailusuario{
+
+}
+
+h2{
+    margin-top: -50px;
 }
